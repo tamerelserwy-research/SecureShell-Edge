@@ -19,7 +19,7 @@ SecureShell-Edge is a system that provides security guardrails for locally-deplo
 | `sandbox.py` | Lightweight isolated execution environment with resource limits and API monitoring (for Windows). |
 | `run_evaluation.py` | Main evaluation script that runs the full pipeline on the dataset. |
 | `requirements-freeze.txt` | Python dependencies pinned to exact versions for reproducibility. |
-| `SecLLM_PowerShell_Dataset.json` | The evaluation dataset of 6,308 PowerShell commands with labels (see [Dataset](https://doi.org/10.5281/zenodo.18636114). |
+| `SecLLM_PowerShell_Dataset.json` | The evaluation dataset of 6,308 PowerShell commands with labels (see [Dataset](https://doi.org/10.5281/zenodo.18636114)). |
 | `SecureShell_Edge_Reproducibility_StepByStep.ipynb` | Google Colab notebook that reproduces the paper’s figures and demonstrates the code. |
 | `LICENSE` | MIT License. |
 
