@@ -22,26 +22,3 @@ SecureShell-Edge is a system that provides security guardrails for locally-deplo
 | `SecLLM_PowerShell_Dataset.json` | The evaluation dataset of 6,308 PowerShell commands with labels (see [Dataset](https://doi.org/10.5281/zenodo.18636114)). |
 | `SecureShell_Edge_Reproducibility_StepByStep.ipynb` | Google Colab notebook that reproduces the paper’s figures and demonstrates the code. |
 | `LICENSE` | MIT License. |
-
-## 🚀 Getting Started
-
-### Option 1: Run in Google Colab (Recommended for Quick Exploration)
-
-1. Open the Colab notebook:  
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tamerelserwy-research/SecureShell-Edge/blob/main/SecureShell_Edge_Reproducibility_StepByStep.ipynb)
-
-2. Run all cells. The notebook will:
-   - Install dependencies.
-   - Generate the Python source files.
-   - Download the dataset from Zenodo.
-   - Execute a mock evaluation (no actual PowerShell required).
-   - Reproduce Figures 2, 3, and 4 from the paper.
-
-### Option 2: Local Installation (Windows with PowerShell)
-
-For full reproduction including sandbox execution, you need a Windows machine with PowerShell.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/tamerelserwy-research/SecureShell-Edge.git
-   cd SecureShell-Edge
